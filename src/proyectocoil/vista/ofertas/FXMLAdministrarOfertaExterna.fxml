@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectocoil.controlador.ofertas.FXMLAdministrarOfertaExternaController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#aaf0c9" height="134.0" stroke="BLACK" strokeType="INSIDE" width="1236.0" />
+      <TableView fx:id="tvOfertas" layoutY="254.0" prefHeight="463.0" prefWidth="1236.0">
+         <columns>
+            <TableColumn fx:id="colTema" prefWidth="216.0" text="Tema" />
+            <TableColumn fx:id="colFechaInicio" prefWidth="212.0" text="Fecha Inicio" />
+            <TableColumn fx:id="colFechaTermino" prefWidth="238.0" text="Fecha Termino" />
+            <TableColumn fx:id="colIdioma" prefWidth="291.0" text="Idioma" />
+            <TableColumn fx:id="colProfesor" prefWidth="278.0" text="Profesor" />
+         </columns>
+      </TableView>
+      <Label layoutX="29.0" layoutY="38.0" text="Ofertas de Colaboracion Externas" textFill="#fff4e3">
+         <font>
+            <Font name="System Bold Italic" size="40.0" />
+         </font>
+      </Label>
+      <Button layoutX="1089.0" layoutY="35.0" mnemonicParsing="false" onAction="#btnClicVolver" prefHeight="65.0" prefWidth="124.0" style="-fx-background-color: #9fe4bd; -fx-border-color: #fff4e3; -fx-background-radius: 9999; -fx-border-radius: 9999; -fx-border-width: 3;" text="Volver" textFill="#fff4e3">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="655.0" layoutY="172.0" mnemonicParsing="false" onAction="#btnClicModificarOferta" style="-fx-background-color: #FFE0A1; -fx-border-color: #E3AA64;" text="Modificar Oferta" textFill="#fff4e3">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="876.0" layoutY="172.0" mnemonicParsing="false" onAction="#btnClicModificarProfesor" style="-fx-background-color: #FFE0A1; -fx-border-color: #E3AA64;" text="Modificar Profesor" textFill="#fff4e3">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="1102.0" layoutY="172.0" mnemonicParsing="false" onAction="#btnClicEliminar" style="-fx-background-color: #FFBABA; -fx-border-color: #FF7070;" text="Eliminar" textFill="#fff4e3">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="396.0" prefWidth="600.0" style="-fx-background-color: E4DACB;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectocoil.controlador.FXMLMenuOfertasController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff90" height="314.0" layoutX="52.0" layoutY="66.0" stroke="#8a8d99" strokeType="INSIDE" strokeWidth="3.0" width="496.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#aaf0c9" height="85.0" stroke="#8a8d99" strokeType="INSIDE" strokeWidth="3.0" width="600.0" />
+      <Label fx:id="lbMenu" layoutX="174.0" layoutY="14.0" text="Menú Ofertas" textFill="#fff4e3">
+         <font>
+            <Font name="System Bold Italic" size="40.0" />
+         </font>
+      </Label>
+      <Button layoutX="274.0" layoutY="333.0" mnemonicParsing="false" onAction="#btnClicVolver" style="-fx-background-color: FFBABA;" text="Volver">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="204.0" layoutY="151.0" mnemonicParsing="false" onAction="#btnClicRegistrarOfertaUV" prefHeight="30.0" prefWidth="193.0" style="-fx-background-color: #9fe4bd;" text="Registrar Oferta UV">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnAdministrarOfertaExt" layoutX="204.0" layoutY="193.0" mnemonicParsing="false" onAction="#btnClicAdministrarOfertaExt" prefHeight="30.0" prefWidth="193.0" style="-fx-background-color: #9fe4bd;" text="Administrar Oferta Externa">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="204.0" layoutY="109.0" mnemonicParsing="false" onAction="#btnClicAdministrarOfertaUV" prefHeight="30.0" prefWidth="193.0" style="-fx-background-color: #9fe4bd;" text="Administrar Oferta UV">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnRegistrarOfertaExt" layoutX="204.0" layoutY="234.0" mnemonicParsing="false" onAction="#btnClicRegistrarOfertaExt" prefHeight="30.0" prefWidth="193.0" style="-fx-background-color: #9fe4bd;" text="Registrar Oferta Externa">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnConsultarOfertas" layoutX="204.0" layoutY="276.0" mnemonicParsing="false" onAction="#btnClicConsultarOfertas" prefHeight="30.0" prefWidth="193.0" style="-fx-background-color: #9fe4bd;" text="Consultar Ofertas">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

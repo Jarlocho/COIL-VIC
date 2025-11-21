@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: E4DACB;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectocoil.controlador.colaboraciones.FXMLAdministracionProfesorColabController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff90" height="431.0" layoutX="14.0" layoutY="57.0" stroke="#8a8d99" strokeType="INSIDE" strokeWidth="3.0" width="675.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#aaf0c9" height="85.0" layoutY="-4.0" stroke="#8a8d99" strokeType="INSIDE" strokeWidth="3.0" width="702.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="10.0" prefHeight="47.0" prefWidth="700.0" text="Administracion de profesor" textFill="#fff4e3">
+         <font>
+            <Font name="System Bold Italic" size="40.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="27.0" layoutY="126.0" prefWidth="649.0" text="Nombre de la colaboracion:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbColab" alignment="CENTER" contentDisplay="CENTER" layoutX="27.0" layoutY="147.0" prefWidth="649.0">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="28.0" layoutY="201.0" prefWidth="649.0" text="Selecciona al profesor que se reemplazará" />
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="192.0" layoutY="447.0" mnemonicParsing="false" onAction="#btnClicReemplazar" prefHeight="25.0" prefWidth="95.0" text="Reemplazar" />
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="415.0" layoutY="447.0" mnemonicParsing="false" onAction="#btnClicCancelar" prefHeight="25.0" prefWidth="70.0" text="Cancelar" />
+      <TableView fx:id="tvProfesor" layoutX="28.0" layoutY="225.0" prefHeight="213.0" prefWidth="649.0">
+         <columns>
+            <TableColumn fx:id="colNombre" prefWidth="223.0" text="Nombre" />
+            <TableColumn fx:id="colCorreo" prefWidth="207.0" text="Correo" />
+            <TableColumn fx:id="colTitulo" prefWidth="218.0" text="Título" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

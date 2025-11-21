@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="396.0" prefWidth="600.0" style="-fx-background-color: E4DACB;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectocoil.controlador.FXMLMenuColaboracionesController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff90" height="314.0" layoutX="52.0" layoutY="66.0" stroke="#8a8d99" strokeType="INSIDE" strokeWidth="3.0" width="496.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#aaf0c9" height="85.0" stroke="#8a8d99" strokeType="INSIDE" strokeWidth="3.0" width="600.0" />
+      <Label fx:id="lbMenu" layoutX="99.0" layoutY="14.0" text="Menú Colaboraciones" textFill="#fff4e3">
+         <font>
+            <Font name="System Bold Italic" size="40.0" />
+         </font>
+      </Label>
+      <Button layoutX="274.0" layoutY="333.0" mnemonicParsing="false" onAction="#btnClicVolver" style="-fx-background-color: FFBABA;" text="Volver">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="204.0" layoutY="152.0" mnemonicParsing="false" onAction="#btnClicAdministrarEstado" prefHeight="30.0" prefWidth="193.0" style="-fx-background-color: #9fe4bd;" text="Administrar Estado">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnAdministrarProfesor" layoutX="204.0" layoutY="193.0" mnemonicParsing="false" onAction="#btnClicAdministrarProfesor" prefHeight="30.0" prefWidth="193.0" style="-fx-background-color: #9fe4bd;" text="Administrar Profesor">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnConsultarHistorial" layoutX="204.0" layoutY="111.0" mnemonicParsing="false" onAction="#btnClicConsultarHistorial" prefHeight="30.0" prefWidth="193.0" style="-fx-background-color: #9fe4bd;" text="Consultar historial">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnRegistrarColab" layoutX="204.0" layoutY="233.0" mnemonicParsing="false" onAction="#btnClicRegistrarColab" prefHeight="30.0" prefWidth="193.0" style="-fx-background-color: #9fe4bd;" text="Registrar Colaboración">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSubirEvidencias" layoutX="204.0" layoutY="272.0" mnemonicParsing="false" onAction="#btnClicSubirEvidencias" prefHeight="30.0" prefWidth="193.0" style="-fx-background-color: #9fe4bd;" text="Subir Evidencias">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

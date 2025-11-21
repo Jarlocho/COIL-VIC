@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectocoil.controlador.ofertas.FXMLDatosOfertaColaboracionExtController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#aaf0c9" height="144.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="900.0" />
+      <Button layoutX="416.0" layoutY="430.0" mnemonicParsing="false" onAction="#btnClicCerrarDatos" style="-fx-background-color: #91F291; -fx-border-color: #8BBF73;" text="Aceptar" textFill="#fff4e3">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></Button>
+      <Label layoutX="210.0" layoutY="158.0" style="-fx-background-color: #aaf0c9; -fx-border-color: #aaf0c9; -fx-border-width: 3;" text="Tema">
+         <font>
+            <Font name="System Bold Italic" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="143.0" layoutY="312.0" style="-fx-background-color: #aaf0c9; -fx-border-color: #aaf0c9; -fx-border-width: 3;" text="Fecha de Inicio">
+         <font>
+            <Font name="System Bold Italic" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="543.0" layoutY="312.0" style="-fx-background-color: #aaf0c9; -fx-border-color: #aaf0c9; -fx-border-width: 3;" text="Fecha de Termino">
+         <font>
+            <Font name="System Bold Italic" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="622.0" layoutY="160.0" style="-fx-background-color: #aaf0c9; -fx-border-color: #aaf0c9;" text="Idioma">
+         <font>
+            <Font name="System Bold Italic" size="31.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbTema" alignment="CENTER" contentDisplay="CENTER" layoutX="109.0" layoutY="249.0" prefHeight="27.0" prefWidth="289.0" style="-fx-border-color: #E3AA64;">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="lbFechaInicio" alignment="CENTER" contentDisplay="CENTER" layoutX="109.0" layoutY="390.0" prefHeight="29.0" prefWidth="289.0" style="-fx-border-color: #E3AA64;">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="lbFechaTermino" alignment="CENTER" contentDisplay="CENTER" layoutX="530.0" layoutY="390.0" prefHeight="29.0" prefWidth="289.0" style="-fx-border-color: #E3AA64;">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="lbIdioma" alignment="CENTER" contentDisplay="CENTER" layoutX="530.0" layoutY="249.0" prefHeight="29.0" prefWidth="289.0" style="-fx-border-color: #E3AA64;">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="31.0" layoutY="39.0" text="Datos Oferta Externa" textFill="#fff4e3">
+         <font>
+            <Font name="System Bold Italic" size="45.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

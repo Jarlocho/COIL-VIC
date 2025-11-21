@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: E4DACB;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectocoil.controlador.profesores.FXMLRegistroProfExtController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff90" height="431.0" layoutX="14.0" layoutY="57.0" stroke="#8a8d99" strokeType="INSIDE" strokeWidth="3.0" width="675.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#aaf0c9" height="85.0" layoutY="-4.0" stroke="#8a8d99" strokeType="INSIDE" strokeWidth="3.0" width="702.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="10.0" prefHeight="47.0" prefWidth="700.0" text="Registro de profesor externo" textFill="#fff4e3">
+         <font>
+            <Font name="System Bold Italic" size="40.0" />
+         </font>
+      </Label>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="217.0" layoutY="447.0" mnemonicParsing="false" onAction="#btnClicAceptar" prefHeight="25.0" prefWidth="70.0" text="Aceptar" />
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="415.0" layoutY="447.0" mnemonicParsing="false" onAction="#btnClicCancelar" prefHeight="25.0" prefWidth="70.0" text="Cancelar" />
+      <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="142.0" layoutY="93.0" prefHeight="30.0" prefWidth="110.0" text="Nombre:" />
+      <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="142.0" layoutY="140.0" prefHeight="30.0" prefWidth="110.0" text="Correo:" />
+      <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="142.0" layoutY="185.0" prefHeight="30.0" prefWidth="110.0" text="Título:" />
+      <TextField fx:id="tfNombre" layoutX="263.0" layoutY="93.0" prefHeight="30.0" prefWidth="300.0" />
+      <TextField fx:id="tfCorreo" layoutX="263.0" layoutY="140.0" prefHeight="30.0" prefWidth="300.0" />
+      <TextField fx:id="tfTitulo" layoutX="263.0" layoutY="185.0" prefHeight="30.0" prefWidth="300.0" />
+      <TableView fx:id="tvIdioma" layoutX="28.0" layoutY="225.0" prefHeight="213.0" prefWidth="649.0">
+         <columns>
+            <TableColumn fx:id="colIdioma" prefWidth="648.0" text="Idioma" />
+         </columns>
+      </TableView>
+      <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="28.0" layoutY="208.0" prefHeight="15.0" prefWidth="164.0" text="Botón ctrl para selección múltiple">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

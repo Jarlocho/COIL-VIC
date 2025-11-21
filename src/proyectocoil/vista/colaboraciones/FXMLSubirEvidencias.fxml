@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="304.0" prefWidth="512.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectocoil.controlador.colaboraciones.FXMLSubirEvidenciasController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#aaf0c9" height="85.0" stroke="#8a8d99" strokeType="INSIDE" strokeWidth="3.0" width="512.0" />
+      <Label layoutX="14.0" layoutY="91.0" prefHeight="37.0" prefWidth="474.0" text="Escribe una descripcion breve y suba las evidencias seleccionando un archivo Pdf o Zip.  " wrapText="true">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbArchivoSeleccionado" alignment="CENTER" layoutX="135.0" layoutY="227.0" prefHeight="17.0" prefWidth="237.0" text="No ha seleccionado ningún archivo" textAlignment="CENTER" textFill="#808080" />
+      <Button layoutX="202.0" layoutY="195.0" mnemonicParsing="false" onAction="#btnClicSubirEvidencias" text="Subir Evidencias" />
+      <Button layoutX="72.0" layoutY="253.0" mnemonicParsing="false" onAction="#btnClicCancelar" text="Cancelar" />
+      <Button layoutX="377.0" layoutY="253.0" mnemonicParsing="false" onAction="#btnClicGuardar" prefHeight="25.0" prefWidth="62.0" text="Guardar" />
+      <Label layoutX="104.0" layoutY="14.0" text="Subir evidencias" textFill="#fff4e3">
+         <font>
+            <Font name="System Bold Italic" size="40.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfDescripcion" layoutX="70.0" layoutY="140.0" prefHeight="37.0" prefWidth="373.0" promptText="Descripción Breve" />
+   </children>
+</AnchorPane>

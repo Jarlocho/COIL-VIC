@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectocoil.controlador.colaboraciones.FXMLHistorialDeColaboracionesController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#aaf0c9" height="132.0" layoutX="-3.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="668.0" />
+      <TableView fx:id="tvColaboraciones" layoutY="197.0" prefHeight="403.0" prefWidth="665.0">
+        <columns>
+          <TableColumn fx:id="colNombreColab" prefWidth="437.0" text="Nombre " />
+          <TableColumn fx:id="colBoton" prefWidth="227.0" />
+        </columns>
+      </TableView>
+      <Button layoutX="498.0" layoutY="36.0" mnemonicParsing="false" onAction="#btnClicVolver" style="-fx-background-color: #9fe4bd; -fx-border-color: #fff4e3; -fx-border-radius: 9999; -fx-background-radius: 9999; -fx-border-width: 3;" text="Volver" textFill="#fff4e3">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font></Button>
+      <Label layoutX="32.0" layoutY="31.0" text="Historial" textFill="#fff4e3">
+         <font>
+            <Font name="System Bold Italic" size="45.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="150.0" text="De clic en el boton de la colaboracion que desee ver sus datos">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

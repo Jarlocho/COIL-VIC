@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="421.0" prefWidth="705.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectocoil.controlador.colaboraciones.FXMLSeleccionOfertaController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#aaf0c9" height="85.0" stroke="#8a8d99" strokeType="INSIDE" strokeWidth="3.0" width="705.0" />
+      <Label layoutX="19.0" layoutY="85.0" prefHeight="47.0" prefWidth="669.0" text="Seleccione la oferta que desea asociar a la colaboración para continuar, tenga en cuenta que el profesor asociado a la oferta seleccionada será quien participe en la colaboración" wrapText="true" />
+      <Label fx:id="lbTitulo" alignment="CENTER" layoutX="72.0" layoutY="14.0" prefHeight="58.0" prefWidth="564.0" text="Selección de Oferta" textFill="#fff4e3">
+         <font>
+            <Font name="System Bold Italic" size="40.0" />
+         </font>
+      </Label>
+      <Button layoutX="570.0" layoutY="374.0" mnemonicParsing="false" onAction="#btnClicSiguiente" prefHeight="25.0" prefWidth="66.0" text="Siguiente" />
+      <Button layoutX="72.0" layoutY="374.0" mnemonicParsing="false" onAction="#btnClicCancelar" text="Cancelar" />
+      <TableView fx:id="tvOfertas" layoutX="19.0" layoutY="141.0" prefHeight="221.0" prefWidth="669.0">
+         <columns>
+            <TableColumn fx:id="colProfesor" prefWidth="173.0" text="Profesor" />
+            <TableColumn fx:id="colTema" prefWidth="196.0" text="Tema" />
+            <TableColumn fx:id="colIdioma" prefWidth="102.0" text="Idioma" />
+            <TableColumn fx:id="colFechaInicio" prefWidth="89.0" text="Fecha de inicio" />
+            <TableColumn fx:id="colFechaTermino" prefWidth="108.0" text="Fecha de Término" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

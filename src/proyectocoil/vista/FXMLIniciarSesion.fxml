@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="365.0" prefWidth="600.0" style="-fx-background-color: E4DACB;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectocoil.controlador.FXMLIniciarSesionController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff90" height="286.0" layoutX="52.0" layoutY="63.0" stroke="#8a8d99" strokeType="INSIDE" strokeWidth="3.0" width="496.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#aaf0c9" height="85.0" layoutY="-4.0" stroke="#8a8d99" strokeType="INSIDE" strokeWidth="3.0" width="600.0" />
+      <Label layoutX="176.0" layoutY="10.0" text="Iniciar Sesión" textFill="#fff4e3">
+         <font>
+            <Font name="System Bold Italic" size="40.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfNombreUsuario" layoutX="226.0" layoutY="130.0" promptText="Nombre de Usuario" />
+      <PasswordField fx:id="pfContrasenia" layoutX="226.0" layoutY="200.0" promptText="Contraseña" />
+      <Button layoutX="257.0" layoutY="274.0" mnemonicParsing="false" onAction="#btnClicIniciarSesion" text="Iniciar Sesión" />
+   </children>
+</AnchorPane>

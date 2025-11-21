@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="396.0" prefWidth="600.0" style="-fx-background-color: E4DACB;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectocoil.controlador.FXMLMenuPrincipalController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff90" height="314.0" layoutX="52.0" layoutY="66.0" stroke="#8a8d99" strokeType="INSIDE" strokeWidth="3.0" width="496.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#aaf0c9" height="85.0" stroke="#8a8d99" strokeType="INSIDE" strokeWidth="3.0" width="600.0" />
+      <Label fx:id="lbMenuPrincipal" layoutX="141.0" layoutY="10.0" text="Menú Principal" textFill="#fff4e3">
+         <font>
+            <Font name="System Bold Italic" size="45.0" />
+         </font>
+      </Label>
+      <Button layoutX="255.0" layoutY="333.0" mnemonicParsing="false" onAction="#btnClicCerrarSesion" style="-fx-background-color: FFBABA;" text="Cerrar Sesion">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="204.0" layoutY="168.0" mnemonicParsing="false" onAction="#btnClicColaboraciones" prefHeight="30.0" prefWidth="193.0" style="-fx-background-color: #9fe4bd;" text="Colaboraciones">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="181.0" layoutY="118.0" mnemonicParsing="false" onAction="#btnClicOfertasColab" prefHeight="30.0" prefWidth="239.0" style="-fx-background-color: #9fe4bd;" text="Ofertas de Colaboración">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnProfesoresExt" layoutX="204.0" layoutY="217.0" mnemonicParsing="false" onAction="#btnClicProfesoresExt" prefHeight="30.0" prefWidth="193.0" style="-fx-background-color: #9fe4bd;" text="Profesores externos">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnConsultarNumeralia" layoutX="204.0" layoutY="266.0" mnemonicParsing="false" onAction="#btnClicConsultarNumeralia" prefHeight="30.0" prefWidth="193.0" style="-fx-background-color: #9fe4bd;" text="Consultar Numeralia">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="814.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectocoil.controlador.ofertas.FXMLModificarProfesorUVController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#aaf0c9" height="120.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="815.0" />
+      <TableView fx:id="tvProfesoresUV" layoutX="113.0" layoutY="192.0" prefHeight="325.0" prefWidth="590.0">
+        <columns>
+          <TableColumn fx:id="colProfesor" prefWidth="442.0" text="Profesor" />
+          <TableColumn fx:id="colBoton" prefWidth="147.0" />
+        </columns>
+      </TableView>
+      <Button layoutX="676.0" layoutY="130.0" mnemonicParsing="false" onAction="#btnClicCancelar" style="-fx-background-color: #FFBABA; -fx-border-color: #FF7070;" text="Cancelar" textFill="#fff4e3">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></Button>
+      <TextField fx:id="tfBusquedaProfesor" layoutX="40.0" layoutY="43.0" prefHeight="31.0" prefWidth="248.0" promptText="Buscar Profesor" />
+      <Label layoutX="72.0" layoutY="140.0" text="Seleccione el nuevo profesor de la oferta">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

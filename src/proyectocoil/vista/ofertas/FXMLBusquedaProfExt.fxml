@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: E4DACB;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectocoil.controlador.ofertas.FXMLBusquedaProfExtController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff90" height="431.0" layoutX="14.0" layoutY="57.0" stroke="#8a8d99" strokeType="INSIDE" strokeWidth="3.0" width="675.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#aaf0c9" height="85.0" layoutY="-4.0" stroke="#8a8d99" strokeType="INSIDE" strokeWidth="3.0" width="702.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="10.0" prefHeight="47.0" prefWidth="700.0" text="Búsqueda profesor externo" textFill="#fff4e3">
+         <font>
+            <Font name="System Bold Italic" size="40.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="27.0" layoutY="129.0" prefHeight="30.0" prefWidth="649.0" text="Selecciona un profesor externo para registrar en la oferta" />
+      <TextField fx:id="tfBusquedaProfExt" layoutX="27.0" layoutY="91.0" prefHeight="30.0" prefWidth="300.0" promptText="Buscar profesor externo" />
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="197.0" layoutY="449.0" mnemonicParsing="false" onAction="#btnClicSeleccionar" prefHeight="25.0" prefWidth="91.0" text="Seleccionar" />
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="408.0" layoutY="449.0" mnemonicParsing="false" onAction="#btnClicCancelar" prefHeight="25.0" prefWidth="70.0" text="Cancelar" />
+      <TableView fx:id="tvProfExterno" layoutX="27.0" layoutY="166.0" prefHeight="271.0" prefWidth="649.0">
+        <columns>
+          <TableColumn fx:id="colNombre" prefWidth="219.0" text="Nombre" />
+            <TableColumn fx:id="colCorreo" prefWidth="206.0" text="Correo" />
+            <TableColumn fx:id="colTitulo" prefWidth="223.0" text="Título" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

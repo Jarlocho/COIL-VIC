@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectocoil.controlador.colaboraciones.FXMLSeleccionParticipantesController">
+   <children>
+      <TableView fx:id="tvParticipantes" layoutX="19.0" layoutY="141.0" prefHeight="183.0" prefWidth="564.0">
+         <columns>
+            <TableColumn fx:id="colParticipantes" prefWidth="184.0" text="Participantes" />
+            <TableColumn fx:id="colCampo1" prefWidth="194.0" text="campo1" />
+            <TableColumn fx:id="colCampo2" prefWidth="185.0" text="campo2" />
+         </columns>
+      </TableView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#aaf0c9" height="85.0" stroke="#8a8d99" strokeType="INSIDE" strokeWidth="3.0" width="600.0" />
+      <Button layoutX="80.0" layoutY="349.0" mnemonicParsing="false" onAction="#btnClicCancelar" text="Cancelar" />
+      <Button fx:id="btnSiguiente" layoutX="464.0" layoutY="349.0" mnemonicParsing="false" onAction="#btnClicSiguiente" prefHeight="25.0" prefWidth="66.0" text="Siguiente" />
+      <Label fx:id="lbTitulo" alignment="CENTER" layoutX="19.0" layoutY="14.0" prefHeight="58.0" prefWidth="564.0" text="Selección de participantes" textFill="#fff4e3">
+         <font>
+            <Font name="System Bold Italic" size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbInstrucciones" layoutX="19.0" layoutY="94.0" prefHeight="47.0" prefWidth="564.0" text="Instrucciones" />
+   </children>
+</AnchorPane>
